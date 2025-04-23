@@ -36,21 +36,31 @@ Figure 02  Encoder 8 * 3
 
 **Procedure**
 
-/* write all the steps invloved */
+Define the 8-to-3 encoder truth table, ensuring only one input is high at a time.
 
+Create a Verilog module using dataflow modeling with assign and ternary (? :) operators.
+
+Assign the output bits (dout) based on which input (din[7:0]) is high.
+
+Write a testbench to apply one-hot input combinations and monitor outputs.
+
+Simulate and verify the output matches the expected binary values from the truth table.
 **PROGRAM**
 
-/* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
+![program](https://github.com/user-attachments/assets/a92fec13-a23d-414d-999a-8e05f5bf6f41)
 
-Developed by: RegisterNumber:
-*/
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
 
+![simulation](https://github.com/user-attachments/assets/8f7fc3d6-87b7-4592-8955-3a6b53ae3e4c)
+
+
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
 
-**RESULTS**
+![waveform](https://github.com/user-attachments/assets/160c1ca2-06b9-44b1-a9a1-28ee8c880f4c)
 
+**RESULTS**
+The 8-to-3 encoder was successfully implemented using dataflow modeling in Verilog and verified through simulation with its functional truth table.
 
 
 
